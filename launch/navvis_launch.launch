@@ -2,7 +2,7 @@
 	
 	<arg name="use_xacro" default="false" />	
 	<arg if="$(arg use_xacro)" name="filename" default="def.xacro" />
-	<arg unless="$(arg use_xacro)" name="filename" default="def.urdf" />
+	<arg unless="$(arg use_xacro)" name="filename" default="urdf_from_xacro.urdf" />
 	<arg name ="file" default="$(find navvis_description)/urdf/$(arg filename)" />		
 	<param if="$(arg use_xacro)" name="robot_description" command="$(find xacro)/xacro --inorder $(arg file)" />
 	<param unless="$(arg use_xacro)" name="robot_description" textfile="$(arg file)" />	
