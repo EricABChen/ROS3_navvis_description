@@ -11,12 +11,18 @@ To view this model, these listed dependencies should be satisfied:
 ## ** Run**
 There are several different ways to view this model,
 Before viewing the model, make sure to:
-Download the package into \r\n
-`catkin_ws/src/`\r\n
-Build the package\r\n
-`catkin_make`\r\n
-Then source:\r\n
-`source catkin_ws/devel/setup.bash`\r\n
+Download the package into
+
+`catkin_ws/src/`
+
+Build the package
+
+`catkin_make`
+
+Then source:
+
+`source catkin_ws/devel/setup.bash`
+
 1. Start up the RVIZ to view the URDF version of the model (Use Joint_state_publisher gui by default)
 `roslaunch navvis_description navvis_launch.launch`
 
