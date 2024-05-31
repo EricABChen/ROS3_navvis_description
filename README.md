@@ -1,4 +1,4 @@
-# ecse473_f23_axc1293_navvis_description
+# ROS3_navvis
 ## **Package description**
   - This package contains the code implementation for Lab2, which includes the basic modeling for a classic Navvis robot.
 
